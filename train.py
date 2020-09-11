@@ -310,7 +310,7 @@ if __name__ == '__main__':
         print('To equlize batch stats to 1-GPU setting, the batch_size is multiplied with num_gpu and multiplied batch_size is ', opt.batch_size)
         opt.batch_size = opt.batch_size * opt.num_gpu
         print('To equalize the number of epochs to 1-GPU setting, num_iter is divided with num_gpu by default.')
-        If you dont care about it, just commnet out these line.)
+        If you dont care about it, just comment out these line.)
         opt.num_iter = int(opt.num_iter / opt.num_gpu)
         """
 
